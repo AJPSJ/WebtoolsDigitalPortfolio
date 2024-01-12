@@ -37,7 +37,6 @@
 
 .logo {
     margin : 0 0 0 2% ;
-    border : 1px solid red ;
 }
 
 .logo a img{
@@ -174,7 +173,13 @@
     height : 50% ;
     width : 75% ;
     margin : 10% 0 2% 0 ;
+    transition : 0.3s ;
     border : 2px solid white ;
+}
+
+.homepage_access a img:hover {
+    transition : 0.3s ;
+    border : 2px solid lightskyblue ;
 }
 
 
